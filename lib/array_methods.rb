@@ -1,6 +1,7 @@
-def find_element_index(array, value_to_find)
-  select.value_to_find
-end
+a = [ "a", "b", "c" ]
+a.index("b")              #=> 1
+a.index("z")              #=> nil
+a.index { |x| x == "b" }
 
 def find_max_value(array)
   # Add your solution here
